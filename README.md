@@ -23,7 +23,7 @@ It is not expected that a candidate would complete all of these tasks or even mo
 The following is a list of tasks that need to be implemented on the application.
 
 * Create a Django model using the properties in the data/countries.json file
-* Write a script, use sqlite, or otherwise bulk load the countries.json data into the Django sqlite database
+* Write a script, use the sqlite3 cli, or otherwise bulk load the countries.json data into the Django sqlite database
 * Create a list view in Django that will display a list of all countries.
 * Install the (latest version of bootstrap)[https://getbootstrap.com/docs/5.1/components/card/], and implement a card view for each country in the list. Use the image in the data directory as a temporary placeholder.
 * Implement a way to select a country and edit its values.
