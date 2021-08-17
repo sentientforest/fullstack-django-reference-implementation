@@ -15,3 +15,10 @@ Create a new virtual environment in the project root and activate it:
     pip install requirements.txt
     python manage.py migrate
     python manage.py runserver
+
+### Development tasks
+
+* Create a Django model using the properties in the data/countries.json file
+* Write a script, use sqlite, or otherwise bulk load the countries.json data into the Django sqlite database
+* Create a list view in Django that will display a list of all countries.
+* Install the (latest version of bootstrap)[https://getbootstrap.com/docs/5.1/components/card/], and implement a card view for each country in the list: 
